@@ -8,9 +8,9 @@ https://github.com/keithlyang/Weather_Dashboard
 
 Screenshots/Pictures
 
--pic1
+-https://github.com/keithlyang/Weather_Dashboard/blob/main/pictures/HW6-pic1.JPG
 
--pic2
+-https://github.com/keithlyang/Weather_Dashboard/blob/main/pictures/HW6-pic2.JPG
 
 Features
 
