@@ -8,7 +8,7 @@ function mainSearch() {
 
 function searchCity(city) {
 
-    var urlCurrentWeather = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=imperial"
+    var urlCurrentWeather = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=imperial"
 
     fetch(urlCurrentWeather)
         .then(function (response) {
@@ -26,7 +26,7 @@ function searchCity(city) {
             document.getElementById("humid").textContent = data.main.humidity + " " + "%"
         })
 
-    var urlFiveDay = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=" + apiKey + "&units=imperial"
+    var urlFiveDay = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=" + apiKey + "&units=imperial"
 
     fetch(urlFiveDay)
         .then(response => response.json())
