@@ -1,0 +1,21 @@
+.container-fluid {
+    margin: 20px;
+}
+
+.jumbotron-jumbotron-fluid {
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+
+}
+
+.display-4 {
+    background-color: royalblue;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.forecast {
+    background-color: blueviolet;
+}
